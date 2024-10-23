@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Primera Fila -->
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:background="@color/blueGreen"
+
+        android:layout_gravity="start"
+        />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:background="@color/green"
+
+        android:layout_gravity="center_horizontal"
+        />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:background="@color/greenYellow"
+        android:layout_gravity="end"
+        />
+
+
+    <!-- Segunda Fila -->
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:background="@color/purple"
+
+        android:layout_gravity="start|center"
+        />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:background="@color/blue"
+
+        android:layout_gravity="center"
+        />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:background="@color/lightBlue"
+
+        android:layout_gravity="end|center"
+        />
+
+
+    <!-- Tercera Fila -->
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:background="@color/pink"
+
+        android:layout_gravity="bottom|start"
+        />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:background="@color/red"
+
+        android:layout_gravity="bottom|center"
+        />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:background="@color/lightPink"
+
+        android:layout_gravity="bottom|end"
+        />
+
+</FrameLayout>
